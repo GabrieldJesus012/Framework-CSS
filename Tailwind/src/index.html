@@ -6,14 +6,26 @@
     <link href="./tailwind.css" rel="stylesheet">
     <title>Tailwind Setup</title>
 </head>
-<body class="bg-gray-100 h-screen">
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8" >
+        <h6 class="font-bold mb-2">Componente Card</h6>
 
-    <div class="grid grid-cols-3  gap-4 bg-gray-300 h-32">
-        <div class="p-4 bg-gradient-to-r from-purple-500 to-pink-500">  </div>
-        <div class="p-4 bg-gradient-to-r from-purple-500 to-pink-500">  </div>
-        <div class="p-4 bg-gradient-to-r from-purple-500 to-pink-500">  </div>
+        <div class="bg-white rounded-lg shadow-md">
+
+            <div class="w-full p-4 bg-gray-100 border-b border-gray-200 rounded-t">
+                <h4 class="font-bold">Topo</h4>
+            </div>
+
+            <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa deserunt sunt asperiores. Laudantium delectus repudiandae necessitatibus culpa illum dolore? Ex est deserunt aspernatur nam hic alias nulla laudantium sequi.
+            </div>
+
+            <div class="w-full p-3 bg-gray-50 border-t border-gray-100 rounded-b">
+                <h4 class="font-bold">Rodapé</h4>
+            </div>
+
+        </div>
     </div>
-
 
 </body>
 </html>
+
