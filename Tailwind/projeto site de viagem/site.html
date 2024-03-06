@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <title>Home page</title>
+</head>
+<body class="bg-gray-50 text-gray-600">
+    <!-- header-->
+
+    <div>
+        <div class="container mx-auto px-4 h-24 flex items-center">
+            <div class="font-black">
+                LOGO
+            </div>
+                <ul class="flex items-center ml-auto space-x-4">
+                    <li>
+                        <a href="#" class="text-sm text-gray-600"> Como reservar </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm text-gray-600"> Sobre nós </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm text-gray-600"> Informações </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm text-gray-600"> Contato </a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <!-- /header-->
+    <!-- Banner-->
+    <div style="background: url(./img/banner.png) center top no-repeat; background-size: cover; height: 450px;">
+        <div class="container h-full mx-auto px-4 flex flex-col items-center justify-center">
+            <div class="text-center mb-7">
+                <h1 class="text-sky-600 text-3xl mb-1">Onde você quer ir?</h1>
+                <p class="text-sky-700">Escolha o estado e cidade para achar os melhores resorts.</p>
+            </div>
+            
+            <div>
+                <form class="flex space-x-4 items-center justify-center">
+                    <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <option value="">Escolha estado</option>
+                    </select>
+                    <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <option value="">Escolha cidade</option>
+                    </select>
+                    <button class="inline-flex items-center text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                          
+                        Pesquisar resorts
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /Banner-->
+    <!-- Destaque-->
+    <div>
+        <div class="container mx-auto px-4 py-10">
+            <div class="flex">
+                <div>
+                    <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
+                    <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
+                    <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
+                    <div class="text-sm text-gray-400 font-medium mt-4">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, repudiandae aliquid perferendis id veritatis natus ad commodi quaerat aut. Tempore veniam dolores provident consectetur nemo consequatur labore recusandae assumenda vel?</p>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="inline-flex items-center text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded">
+                            Solicitar reserva
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <img src="img/resort.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Destaque-->
+    <!-- Resorts-->
+    <div>
+        <div class="container mx-auto px-4"> 
+            <div>
+                <h3 class="text-2xl text-gray-400 font-semibold text-center mb-8">Conheça mais resorts</h3>
+                <div class="grid grid-cols-4 grid-rows-2 gap-6">
+                    <div class="col-span-2 row-span-1"><img src="img/beachpark.png"></div>
+                    <div class="col-span-2 row-span-1" ><img class="w-full h-full object-cover" src="img/grand palladium.png"></div>
+                    <div><img class="w-full h-full object-cover" src="img/salinas.jpg"></div>
+                    <div><img class="w-full h-full object-cover" src="img/arraial.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Resorts-->
+</body>
+</html>
